@@ -14,7 +14,11 @@
 .heading1 {
   font-size: 35px;
   text-align: justify;
-  background: -webkit-linear-gradient(45deg, #349ff7 20%, #ef5e37 20%);
+  background: -webkit-linear-gradient(
+    45deg,
+    var(--navy) 50%,
+    var(--purple) 20%
+  );
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -41,4 +45,11 @@
 .p {
   font-size: 20px;
   margin-left: 40px;
+}
+
+@media (max-width: 700px) {
+  .img {
+    width: 100%;
+    margin: auto;
+  }
 }
