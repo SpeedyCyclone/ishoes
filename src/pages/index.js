@@ -18,7 +18,7 @@ export default function Home() {
           className={styles.img}
           priority={true}
         ></Image>
-        <h1 className={styles.heading}>Smart Shoes</h1>
+        <h1 className={styles.heading}>iShoes</h1>
         <p className={styles.heading1}>
           Your one stop destination for smart shoes.
         </p>
