@@ -1,0 +1,79 @@
+.main {
+  float: left;
+  width: 70%;
+  padding: 0px 30px;
+  box-sizing: border-box;
+}
+
+.sidebar {
+  float: right;
+  width: 30%;
+  background: #333;
+  color: #fff;
+  padding: 20px;
+  box-sizing: border-box;
+  margin-top: 40px;
+}
+
+.aboutcontainer {
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+}
+
+.aboutus {
+  font-size: 30px;
+  font-weight: bold;
+  justify-content: center;
+  text-align: center;
+  display: flex;
+  margin-top: 30px;
+  color: black;
+  margin-bottom: 30px;
+}
+
+.lorem {
+  font-size: 20px;
+  font-weight: 500;
+  margin-top: 10px;
+}
+
+.img {
+  height: "100%";
+}
+
+.proboi {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.smallboi {
+  height: 150px;
+  width: 300px;
+  background-color: var(--navy);
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  margin-left: 20px;
+  margin-right: 20px;
+  border-top: 20px solid var(--purple);
+  flex-direction: column;
+  margin: 30px;
+  color: white;
+}
+
+.number {
+  margin-top: 20px;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.award {
+  margin-top: 5px;
+  font-size: 30px;
+  font-weight: bold;
+}

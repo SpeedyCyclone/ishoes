@@ -1,0 +1,68 @@
+:root {
+  --navy: #000080;
+  --black: #000000;
+  --purple: #a020f0;
+}
+
+html {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  box-sizing: border-box;
+  font-family: "Montserrat";
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+  text-decoration: none !important;
+}
+
+.link {
+  text-decoration: none !important;
+  display: inline-block;
+}
+
+.experiencedskaters {
+  background-color: darkred;
+  text-align: center;
+  border-radius: 10px;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 10px;
+  width: 300px;
+  text-transform: capitalize;
+}
+
+.bumpyroads {
+  background-color: darkorange;
+  text-align: center;
+  border-radius: 10px;
+  color: black;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 10px;
+  width: 300px;
+  text-transform: capitalize;
+}
+
+.smoothroads {
+  background-color: purple;
+  text-align: center;
+  border-radius: 10px;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 10px;
+  width: 300px;
+  text-transform: capitalize;
+}
+
+li {
+  text-decoration: none !important;
+}
