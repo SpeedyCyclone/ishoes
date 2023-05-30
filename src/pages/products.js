@@ -2,6 +2,7 @@ import { PrismaClient } from "@prisma/client";
 import styles from "../styles/Product.module.css";
 import Grid from "../components/grid";
 import { useState } from "react";
+import Head from "next/head";
 
 export async function getServerSideProps() {
   const prisma = new PrismaClient();
@@ -21,6 +22,10 @@ export default function Product(props) {
   });
   return (
     <>
+      <Head>
+        <title>Products</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+      </Head>
       <h1 className={styles.product}>Products</h1>
       <form onSubmit={(e) => e.preventDefault()} className={styles.form}>
         <label htmlFor="search" className={styles.search}>

@@ -3,6 +3,7 @@ import Link from "next/link";
 import Image from "next/image";
 import styles from "../styles/Profile.module.css";
 import { signOut } from "next-auth/react";
+import Head from "next/head";
 
 export default function Page() {
   const { data: session, status, update } = useSession();
@@ -10,6 +11,10 @@ export default function Page() {
   if (status === "authenticated") {
     return (
       <>
+        <Head>
+          <title>Profile</title>
+          <meta name="viewport" content="width=device-width, initial-scale=1" />
+        </Head>
         <h1 className={styles.heading}>{session.user.name}</h1>
         <Image
           className={styles.img}
@@ -33,6 +38,10 @@ export default function Page() {
 
   return (
     <>
+      <Head>
+        <title>Profile</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+      </Head>
       <center>
         <h1 className={styles.ok}>Not Authenticated</h1>
       </center>

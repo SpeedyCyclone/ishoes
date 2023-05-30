@@ -1,10 +1,10 @@
 import { PrismaClient } from "@prisma/client";
 const prisma = new PrismaClient();
-import { useRouter } from "next/router";
 import styles from "./styles/Products.module.css";
 import Image from "next/image";
 import Link from "next/link";
 import { useSession } from "next-auth/react";
+import Head from "next/head";
 
 export async function getStaticPaths() {
   const product = await prisma.Product.findMany({
@@ -74,6 +74,10 @@ export default function Product(product = null) {
   var final1 = final.split(" ").join("");
   return (
     <>
+      <Head>
+        <title>Product</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+      </Head>
       <h1 className={styles.title}>{product?.title}</h1>
       <center>
         <h2 className={`${final1}`}>{product?.category}</h2>

@@ -1,5 +1,6 @@
 import { useRouter } from "next/router";
 import styles from "./styles/Buy.module.css";
+import Head from "next/head";
 
 function Price() {
   const router = useRouter();
@@ -7,6 +8,10 @@ function Price() {
   const final = parseInt(price) + 10;
   return (
     <>
+      <Head>
+        <title>Checkout</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+      </Head>
       <h1 className={styles.head}>Checkout</h1>
       <form action="/" method="post" className={styles.form}>
         <div className={styles.inputgroup}>
