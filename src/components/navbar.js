@@ -18,6 +18,7 @@ export default function Navbar() {
           className={styles.img}
         ></Image>
       </Link>
+      <marquee className={styles.lol}>Welcome to iShoes!</marquee>
       <div className={styles.flex}>
         <nav className={styles.navbar}>
           <div className={styles.right}>
