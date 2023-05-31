@@ -11,10 +11,10 @@ export default function Navbar() {
     <>
       <Link href="/">
         <Image
-          src="/favicon.ico"
+          src="/logo.png"
           alt=""
-          width={100}
-          height={100}
+          width={1000}
+          height={300}
           className={styles.img}
         ></Image>
       </Link>

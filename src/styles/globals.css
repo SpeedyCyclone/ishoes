@@ -3,6 +3,7 @@
   --black: #000000;
   --purple: #a020f0;
   --white: #fff;
+  --bg: #ffaf7a;
 }
 
 html {
@@ -16,6 +17,7 @@ body {
   box-sizing: border-box;
   font-family: "Montserrat";
   text-decoration: none;
+  background-color: var(--bg);
 }
 
 ul {
