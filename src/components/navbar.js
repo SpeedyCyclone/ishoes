@@ -13,7 +13,7 @@ export default function Navbar() {
         <Image
           src="/logo.png"
           alt=""
-          width={1000}
+          width={500}
           height={300}
           className={styles.img}
           priority={true}

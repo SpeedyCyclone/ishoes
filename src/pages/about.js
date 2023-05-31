@@ -50,7 +50,7 @@ export default function About() {
             src="/poster.png"
             alt=""
             className={styles.img}
-            width={1000}
+            width={1100}
             height={674}
           ></Image>{" "}
         </aside>
