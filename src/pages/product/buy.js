@@ -13,7 +13,7 @@ function Price() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
       </Head>
       <h1 className={styles.head}>Checkout</h1>
-      <form action="/" method="post" className={styles.form}>
+      <form action="/" className={styles.form}>
         <div className={styles.inputgroup}>
           <label>Full Name</label>
           <input

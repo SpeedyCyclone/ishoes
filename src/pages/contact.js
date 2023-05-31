@@ -13,8 +13,8 @@ export default function Contact() {
         <Image
           src="/favicon.ico"
           alt=""
-          height="500"
-          width="200"
+          height={500}
+          width={200}
           className={styles.img}
         ></Image>
         <form action="/" method="post" className={styles.form}>
@@ -57,6 +57,13 @@ export default function Contact() {
           </div>
         </form>
       </div>
+      <Image
+        src="/favicon.ico"
+        alt=""
+        height={500}
+        width={200}
+        className={styles.img1}
+      ></Image>
     </>
   );
 }

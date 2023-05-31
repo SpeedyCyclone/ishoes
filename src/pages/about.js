@@ -52,7 +52,8 @@ export default function About() {
             className={styles.img}
             width={1100}
             height={674}
-          ></Image>{" "}
+            priority={true}
+          ></Image>
         </aside>
       </div>
       <div className={styles.proboi}>
