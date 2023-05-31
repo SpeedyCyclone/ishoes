@@ -12,7 +12,7 @@ export default function Document() {
           href="https://fonts.googleapis.com/css?family=Montserrat&display=swap"
           rel="stylesheet"
         ></link>
-        <link rel="icon" type="image/x-icon" href="/favicon.ico" />
+        <link rel="icon" type="image/x-icon" href="/logo.png" />
       </Head>
       <body>
         <Main />

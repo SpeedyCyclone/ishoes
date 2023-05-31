@@ -56,7 +56,8 @@
   background-color: transparent;
   height: 50px;
   margin-top: 20px;
-  color: var(--black);
+  background-color: var(--purple);
+  color: var(--navy);
 }
 
 .button:hover,
@@ -64,4 +65,5 @@
 .button:focus {
   background-color: var(--purple);
   color: var(--navy);
+  border: 5px solid var(--black);
 }
