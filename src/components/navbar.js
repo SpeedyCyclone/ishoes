@@ -11,7 +11,7 @@ export default function Navbar() {
     <>
       <Link href="/">
         <Image
-          src="/logo.png"
+          src="/logo1.png"
           alt=""
           width={500}
           height={300}

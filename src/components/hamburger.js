@@ -17,25 +17,22 @@ const Hamburger = () => {
         <i className="bx bx-menu" aria-hidden="true"></i>
       </button>
       {toggle && (
-        <div className={styles.topnav}>
-          <div className={styles.myLink}>
-            <ul className={styles.ul}>
-              <Link href="/" className={styles.link}>
-                <li className={styles.li}>Home</li>
+        <div className="navbar mobile-nav">
+          <div className="mobile-items">
+            <div className="links link-items">
+              <Link href="/" className="link link-item">
+                Home
               </Link>
-              <Link href="/about" className={styles.link}>
-                <li className={styles.li}>About Us</li>
+              <Link href="/skills" className="link link-item">
+                Skills
               </Link>
-              <Link href="/products" className={styles.link}>
-                <li className={styles.li}>Products</li>
+              <Link href="/projects" className="link link-item">
+                Projects
               </Link>
-              <Link href="/contact" className={styles.link}>
-                <li className={styles.li}>Contact Us</li>
+              <Link href="/contact" className="link link-item">
+                Contact
               </Link>
-              <Link href="/" className={styles.link}>
-                <li className={styles.li}>Sign Up</li>
-              </Link>
-            </ul>
+            </div>
           </div>
         </div>
       )}

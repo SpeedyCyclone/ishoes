@@ -106,7 +106,7 @@
 }
 
 .signup {
-  background: rgba(71, 86, 223, 0.95);
+  background: var(--navy);
   box-shadow: 0px 4px 45px rgba(0, 0, 0, 0.25);
   border-radius: 9px;
   font-style: normal;
@@ -119,13 +119,13 @@
 }
 
 .learnbtn {
-  border: 2px solid #959090;
+  border: 2px solid var(--purple);
   border-radius: 9px;
   font-style: normal;
   font-weight: 400;
   font-size: 23px;
   line-height: 23px;
-  color: #838383;
+  color: var(--purple);
   margin-left: 20px;
   background-color: transparent;
   height: 56px;
