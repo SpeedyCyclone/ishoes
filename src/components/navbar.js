@@ -16,6 +16,7 @@ export default function Navbar() {
           width={1000}
           height={300}
           className={styles.img}
+          priority={true}
         ></Image>
       </Link>
       <marquee className={styles.lol}>Welcome to iShoes!</marquee>

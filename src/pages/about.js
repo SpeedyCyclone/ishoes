@@ -44,14 +44,15 @@ export default function About() {
             remaining essentially unchanged.
           </p>
         </section>
+
         <aside className={styles.sidebar}>
           <Image
-            src="/favicon.ico"
+            src="/poster.png"
             alt=""
             className={styles.img}
-            width={400}
-            height={200}
-          ></Image>
+            width={1000}
+            height={674}
+          ></Image>{" "}
         </aside>
       </div>
       <div className={styles.proboi}>
