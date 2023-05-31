@@ -64,6 +64,6 @@
 .button:active,
 .button:focus {
   background-color: var(--purple);
-  color: var(--black);
-  border: 5px solid var(--navy);
+  color: var(--white);
+  border: 5px solid var(--black);
 }

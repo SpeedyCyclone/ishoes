@@ -76,6 +76,7 @@
 
 .heading {
   text-align: center;
+  color: var(--navy);
 }
 
 .img {

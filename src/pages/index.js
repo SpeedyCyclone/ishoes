@@ -31,6 +31,57 @@ export default function Home() {
           doloribus! Animi quibusdam voluptatum illum.
         </p>
       </div>
+      <h1 className={styles.test}>Testimonials</h1>
+      <div className={styles.row}>
+        <div className={styles.card}>
+          <Image
+            src="/user.webp"
+            height={100}
+            width={100}
+            alt=""
+            className={styles.userimg}
+          ></Image>
+          <h1 className={styles.john}>John Doe</h1>
+          <p className={styles.feed}>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+            Repellendus vel earum vitae illo reprehenderit quaerat, commodi
+            atque totam eligendi eius impedit perferendis aspernatur quas
+            pariatur aliquam voluptatibus esse cumque consectetur!
+          </p>
+        </div>
+        <div className={styles.card}>
+          <Image
+            src="/user.webp"
+            height={100}
+            width={100}
+            alt=""
+            className={styles.userimg}
+          ></Image>
+          <h1 className={styles.john}>Jane Doe</h1>
+          <p className={styles.feed}>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+            Repellendus vel earum vitae illo reprehenderit quaerat, commodi
+            atque totam eligendi eius impedit perferendis aspernatur quas
+            pariatur aliquam voluptatibus esse cumque consectetur!
+          </p>
+        </div>
+        <div className={styles.card}>
+          <Image
+            src="/user.webp"
+            height={100}
+            width={100}
+            alt=""
+            className={styles.userimg}
+          ></Image>
+          <h1 className={styles.john}>Charlie Doe</h1>
+          <p className={styles.feed}>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+            Repellendus vel earum vitae illo reprehenderit quaerat, commodi
+            atque totam eligendi eius impedit perferendis aspernatur quas
+            pariatur aliquam voluptatibus esse cumque consectetur!
+          </p>
+        </div>
+      </div>
     </>
   );
 }
