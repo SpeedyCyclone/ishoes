@@ -1,4 +1,5 @@
 import Head from "next/head";
+import Link from "next/link";
 import Image from "next/image";
 import styles from "../styles/Home.module.css";
 
@@ -30,6 +31,14 @@ export default function Home() {
           eum mollitia excepturi nam saepe dolorum quaerat, voluptas animi
           doloribus! Animi quibusdam voluptatum illum.
         </p>
+        <div className={styles.flex}>
+          <Link href="/products">
+            <button className={styles.signup}>Our Products</button>
+          </Link>
+          <Link href="/about">
+            <button className={styles.learnbtn}>Learn more</button>
+          </Link>
+        </div>
       </div>
       <h1 className={styles.test}>Testimonials</h1>
       <div className={styles.row}>
