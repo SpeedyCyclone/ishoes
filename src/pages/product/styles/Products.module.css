@@ -35,15 +35,18 @@
   font-weight: 600;
   border: 5px solid var(--purple);
   border-radius: 20px;
-  background-color: transparent;
   height: 50px;
   margin-top: 40px;
-  color: var(--black);
+  background-color: var(--purple);
+  color: var(--white);
 }
 
-.button:hover {
+.button:hover,
+.button:active,
+.button:focus {
   background-color: var(--purple);
-  color: var(--navy);
+  color: var(--black);
+  border: 5px solid var(--navy);
 }
 
 .loginbtn {
@@ -57,4 +60,11 @@
   font-weight: 600;
   margin-top: 5px;
   cursor: pointer;
+}
+
+@media (max-width: 700px) {
+  .img {
+    width: 100%;
+    margin: auto;
+  }
 }

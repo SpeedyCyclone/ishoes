@@ -88,7 +88,7 @@
 }
 
 .total {
-  font-size: 45px;
+  font-size: 35px;
   color: var(--black);
   font-weight: bold;
 }
@@ -97,4 +97,17 @@
   font-size: 40px;
   margin: auto;
   text-align: center;
+}
+
+@media (max-width: 700px) {
+  .inputgroup,
+  .inputgroup .label,
+  .input[type="submit"],
+  .inputgroup textarea {
+    width: 100%;
+    margin-top: 0;
+  }
+  .form {
+    margin-top: 40px;
+  }
 }
