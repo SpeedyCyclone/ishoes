@@ -16,12 +16,14 @@ export default function Home() {
           Your one stop destination for smart shoes.
         </p>
         <p className={styles.p}>
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nostrum
-          neque enim iste alias autem nobis non repellendus praesentium. Iure
-          ullam in tempora voluptatem architecto molestias commodi expedita
-          provident dolorum nemo? Consequatur expedita est rem placeat ea quod
-          eum mollitia excepturi nam saepe dolorum quaerat, voluptas animi
-          doloribus! Animi quibusdam voluptatum illum.
+          iShoes makes commuting easy. With the 21st century technology, iShoes
+          has advanced its game and provides much more features for users.
+          Sensors, GPS, Wheels are just a few of the features which we have made
+          to improve user interaction. With its cutting-edge technology and
+          seamless connectivity, it provides comfort and support to users who
+          seek stylish and smart design. To meet our customers demand, we
+          introducted three shoes which have a great response and are likely to
+          stabilise the future!
         </p>
         <div className={styles.flex}>
           <Link href="/products">

@@ -10,7 +10,7 @@ export default function Contact() {
       </Head>
       <h1 className={styles.heading}>Contact Us</h1>
       <div className={styles.flex}>
-        <form action="/" method="post" className={styles.form}>
+        <form action="/" className={styles.form}>
           <div className={styles.inputgroup}>
             <label>Full Name</label>
             <input
