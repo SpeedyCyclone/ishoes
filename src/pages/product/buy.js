@@ -81,7 +81,7 @@ function Price() {
         <div className={styles.flex}>
           <h1 className={styles.price}>Price of Product: ₹{price}</h1>
           <h2 className={styles.delivery}>Delivery Charge: ₹80</h2>
-          <h1 className={styles.total}>Total Price: ${final}</h1>
+          <h1 className={styles.total}>Total Price: ₹{final}</h1>
         </div>
         <div className={styles.inputgroup}>
           <button type="submit" className={styles.button}>
