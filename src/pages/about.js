@@ -12,11 +12,11 @@ export default function About() {
         <section className={styles.main}>
           <h1 className={styles.aboutus}>About Us</h1>
           <p className={styles.lorem}>
-            Welcome to Tech Shoes - Where Fashion Meets Technology!
+            Welcome to iShoes - Where Fashion Meets Technology!
             <br></br>
             <br></br>
-            At Tech Shoes, we believe that style and functionality can coexist.
-            We are a leading tech shoe company dedicated to providing innovative
+            At iShoes, we believe that style and functionality can coexist. We
+            are a leading tech shoe company dedicated to providing innovative
             footwear solutions that enhance your active lifestyle. Whether you
             are an athlete, a fitness enthusiast, or simply someone who values
             comfort and performance, we have the perfect pair of shoes for you.
@@ -32,7 +32,7 @@ export default function About() {
             experience. <br></br>
             <br></br>Unmatched Comfort: <br></br>
             <br></br> We understand that comfort is paramount when it comes to
-            footwear. That iss why we prioritize ergonomic design and superior
+            footwear. That is why we prioritize ergonomic design and superior
             cushioning in all our shoe models. Our shoes are crafted with
             precision and attention to detail to ensure a perfect fit and
             maximum support, allowing you to stay on your feet for longer
@@ -40,7 +40,7 @@ export default function About() {
           </p>
           <p className={styles.lorem}>
             Style That Sets You Apart: <br></br>
-            <br></br>At Tech Shoes, we believe that your shoes should not only
+            <br></br>At iShoes, we believe that your shoes should not only
             perform well but also make a statement. Our design team stays ahead
             of the latest trends to create stylish footwear that reflects your
             personality and sets you apart from the crowd. Whether you prefer
@@ -61,7 +61,7 @@ export default function About() {
             wide range of options to suit every taste and preference.
           </p>
           <p className={styles.lorem}>
-            Join the Tech Shoes Community: <br></br>
+            Join the iShoes Community: <br></br>
             <br></br> Stay connected with us and join our vibrant community of
             tech shoe enthusiasts. Follow us on social media, subscribe to our
             newsletter, and be the first to know about our latest product
@@ -69,8 +69,8 @@ export default function About() {
             <br></br>Experience the Future of Footwear: <br></br>
             <br></br>Are you ready to experience the future of footwear? Shop
             our collection today and discover the perfect combination of style,
-            technology, and comfort. Step into the world of Tech Shoes and
-            elevate your active lifestyle to new heights.
+            technology, and comfort. Step into the world of iShoes and elevate
+            your active lifestyle to new heights.
           </p>
         </section>
 

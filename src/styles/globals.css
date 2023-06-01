@@ -101,15 +101,6 @@ li {
   border-bottom: var(--secondary-color) 2px solid;
 }
 
-.icon {
-  color: var(--primary-color);
-  border: 2px solid var(--primary-color);
-  border-radius: 50%;
-  width: 20px;
-  height: 20px;
-  padding: 5px;
-  cursor: pointer;
-}
 @media (max-width: 650px) {
   .mobile-nav {
     display: flex;

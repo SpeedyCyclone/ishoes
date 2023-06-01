@@ -64,10 +64,7 @@
   .img {
     width: 100%;
     height: 100%;
-    margin: auto;
-    justify-content: center;
-    align-items: center;
-    display: flex;
+    margin: 0;
   }
   .card {
     height: 100%;
@@ -76,6 +73,7 @@
   .banner {
     width: 100%;
     height: 100%;
+    margin: auto;
   }
 
   .flex {
@@ -84,10 +82,25 @@
   }
   .signup {
     margin-bottom: 10px;
-    margin-left: 20px;
+    margin-left: 50px;
+  }
+  .learnbtn {
+    margin-left: 50px;
   }
   .proboi {
     flex-wrap: wrap;
+  }
+  .heading {
+    margin-left: 40px;
+  }
+  .heading1 {
+    margin-left: 0px;
+    text-align: center;
+  }
+  .p {
+    text-align: justify;
+    margin-left: 0;
+    margin-right: 0;
   }
 }
 
@@ -151,6 +164,7 @@
   color: #ffffff;
   width: 199px;
   height: 56px;
+  margin-right: 20px;
 }
 
 .learnbtn {
@@ -161,7 +175,6 @@
   font-size: 23px;
   line-height: 23px;
   color: var(--purple);
-  margin-left: 20px;
   background-color: transparent;
   height: 56px;
   width: 199px;
