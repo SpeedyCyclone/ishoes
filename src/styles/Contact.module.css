@@ -79,39 +79,18 @@
   color: var(--navy);
 }
 
-.img {
-  float: left;
-  margin-left: 100px;
-  align-items: center;
-  justify-content: center;
-  height: 100%;
-}
-
 .flex {
   display: flex;
   align-items: center;
   justify-content: center;
 }
-@media (max-width: 1440px) {
-  .img1 {
-    display: none;
-  }
-}
+
 @media (max-width: 700px) {
-  .img {
-    display: none;
-  }
   .inputgroup,
   .inputgroup .label,
   .input[type="submit"],
   .inputgroup textarea {
     width: 100%;
     margin-top: 0;
-  }
-  .img1 {
-    display: block;
-    justify-content: center;
-    align-items: center;
-    margin: auto;
   }
 }

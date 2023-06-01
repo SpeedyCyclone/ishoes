@@ -20,8 +20,8 @@ export default function Page() {
           className={styles.img}
           src={session.user.image}
           alt=""
-          width={96}
-          height={96}
+          width={100}
+          height={100}
         ></Image>
         <div className={styles.flex}>
           <Link

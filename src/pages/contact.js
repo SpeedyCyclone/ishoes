@@ -10,13 +10,6 @@ export default function Contact() {
       </Head>
       <h1 className={styles.heading}>Contact Us</h1>
       <div className={styles.flex}>
-        <Image
-          src="/favicon.ico"
-          alt=""
-          height={500}
-          width={200}
-          className={styles.img}
-        ></Image>
         <form action="/" method="post" className={styles.form}>
           <div className={styles.inputgroup}>
             <label>Full Name</label>
@@ -57,13 +50,6 @@ export default function Contact() {
           </div>
         </form>
       </div>
-      <Image
-        src="/favicon.ico"
-        alt=""
-        height={500}
-        width={200}
-        className={styles.img1}
-      ></Image>
     </>
   );
 }

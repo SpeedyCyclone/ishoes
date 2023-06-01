@@ -22,7 +22,7 @@ export default function About() {
             comfort and performance, we have the perfect pair of shoes for you.
             <br></br>
             <br></br>
-            Our Commitment to Technology: <br></br>
+            Our Commitment to Technology:<br></br>
             <br></br>At the core of our company is a deep commitment to
             integrating cutting-edge technology into every shoe we create. We
             collaborate with top engineers, designers, and athletes to develop
@@ -84,24 +84,6 @@ export default function About() {
             priority={true}
           ></Image>
         </aside>
-      </div>
-      <div className={styles.proboi}>
-        <div className={styles.smallboi}>
-          <h1 className={styles.number}>4</h1>
-          <h1 className={styles.award}>Awards</h1>
-        </div>
-        <div className={styles.smallboi}>
-          <h1 className={styles.number}>4.8 &#9733;</h1>
-          <h1 className={styles.award}>Rating</h1>
-        </div>
-        <div className={styles.smallboi}>
-          <h1 className={styles.number}>40+</h1>
-          <h1 className={styles.award}>Products Sold</h1>
-        </div>
-        <div className={styles.smallboi}>
-          <h1 className={styles.number}>100+</h1>
-          <h1 className={styles.award}>Visitors</h1>
-        </div>
       </div>
     </>
   );

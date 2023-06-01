@@ -11,14 +11,6 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
       </Head>
       <div className={styles.banner}>
-        <Image
-          src="/testing.png"
-          alt=""
-          width={400}
-          height={400}
-          className={styles.img}
-          priority={true}
-        ></Image>
         <h1 className={styles.heading}>iShoes</h1>
         <p className={styles.heading1}>
           Your one stop destination for smart shoes.
@@ -40,6 +32,14 @@ export default function Home() {
           </Link>
         </div>
       </div>
+      <Image
+        src="/model2.png"
+        alt=""
+        width={1200}
+        height={1000}
+        className={styles.img}
+        priority={true}
+      ></Image>
       <h1 className={styles.test}>Testimonials</h1>
       <div className={styles.row}>
         <div className={styles.card}>
@@ -89,6 +89,24 @@ export default function Home() {
             atque totam eligendi eius impedit perferendis aspernatur quas
             pariatur aliquam voluptatibus esse cumque consectetur!
           </p>
+        </div>
+      </div>
+      <div className={styles.proboi}>
+        <div className={styles.smallboi}>
+          <h1 className={styles.number}>4</h1>
+          <h1 className={styles.award}>Awards</h1>
+        </div>
+        <div className={styles.smallboi}>
+          <h1 className={styles.number}>4.8 &#9733;</h1>
+          <h1 className={styles.award}>Rating</h1>
+        </div>
+        <div className={styles.smallboi}>
+          <h1 className={styles.number}>40+</h1>
+          <h1 className={styles.award}>Products Sold</h1>
+        </div>
+        <div className={styles.smallboi}>
+          <h1 className={styles.number}>100+</h1>
+          <h1 className={styles.award}>Visitors</h1>
         </div>
       </div>
     </>
