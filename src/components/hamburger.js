@@ -1,9 +1,11 @@
 import React, { useState } from "react";
 import styles from "../styles/Hamburger.module.css";
 import Link from "next/link";
+import { useSession } from "next-auth/react";
 
 const Hamburger = () => {
   const [toggle, setToggle] = useState(false);
+  const { data: session, status } = useSession();
 
   return (
     <>
@@ -23,15 +25,24 @@ const Hamburger = () => {
               <Link href="/" className="link link-item">
                 Home
               </Link>
-              <Link href="/skills" className="link link-item">
-                Skills
+              <Link href="/about" className="link link-item">
+                About
               </Link>
-              <Link href="/projects" className="link link-item">
-                Projects
+              <Link href="/products" className="link link-item">
+                Products
               </Link>
               <Link href="/contact" className="link link-item">
                 Contact
               </Link>
+              {status === "authenticated" ? (
+                <Link href="/profile" className="link link-item">
+                  Profile
+                </Link>
+              ) : (
+                <Link href="/api/auth/signin" className="link link-item">
+                  Log In
+                </Link>
+              )}
             </div>
           </div>
         </div>

@@ -76,7 +76,7 @@ export default function About() {
 
         <aside className={styles.sidebar}>
           <Image
-            src="/poster.png"
+            src="/final1.png"
             alt=""
             className={styles.img}
             width={1100}
