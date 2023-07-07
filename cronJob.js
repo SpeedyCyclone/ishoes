@@ -7,7 +7,7 @@ const supabaseKey = process.env.SUPABASE_KEY;
 const supabase = createClient(supabaseUrl, supabaseKey);
 
 const job = new CronJob(
-  "0 0 * * *",
+  */5 * * * *,
   () => {
     const fetchData = async () => {
       try {
@@ -16,7 +16,7 @@ const job = new CronJob(
         if (error) {
           console.error(error);
         } else {
-          //console.log(data);
+          console.log(data);
         }
       } catch (error) {
         console.error(error);
